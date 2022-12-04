@@ -1,6 +1,6 @@
 # Getting App weather using react
 
-[Look application weather](https://github.com/Raajesh24/sitel-react)
+[Look application weather](https://github.com/Raajesh24/weatherApp)
 
 # Getting Started with Create React App
 

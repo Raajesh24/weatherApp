@@ -37,18 +37,27 @@ function App() {
 
   return (
     <>
-      <div className="container">
-        <Search onSearchChange={handleOnSearchChange} />
-        {currentWeather && <CurrentWeather data={currentWeather} />}
-        {forecast && <ForeCast data={forecast} />}
-      </div>
       <div className="footer">
-        Made With{" "}
+        Made with{" "}
         <img src={heart} style={{ width: "5%", height: "6%" }} alt="heart" /> by
         <a href="https://rajesh24.netlify.app/" className="myName">
           {" "}
           ( Rajesh R )
+          <span
+            style={{
+              fontSize: "8px",
+              color: "aliceblue",
+              fontWeight: "lighter",
+            }}
+          >
+            click here...
+          </span>
         </a>
+      </div>
+      <div className="container" style={{ marginTop: "5%" }}>
+        <Search onSearchChange={handleOnSearchChange} />
+        {currentWeather && <CurrentWeather data={currentWeather} />}
+        {forecast && <ForeCast data={forecast} />}
       </div>
     </>
   );

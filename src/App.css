@@ -8,16 +8,14 @@
 }
 .footer {
   position: absolute;
-  bottom: 0;
-  left: 30%;
+  top: 0;
+  left: 20%;
   font-size: larger;
   font-weight: bolder;
   color: white;
+  -webkit-text-stroke: 1px black;
 }
 .myName {
   text-decoration: none;
   color: red;
-}
-.myName:hover {
-  font-size: xx-large;
 }
