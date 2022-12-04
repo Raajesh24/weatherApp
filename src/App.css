@@ -1,0 +1,23 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 0.95;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+}
+.myName {
+  text-decoration: none;
+  color: red;
+}
+.myName:hover {
+  font-size: xx-large;
+}
